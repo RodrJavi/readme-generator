@@ -1,35 +1,34 @@
-# a
+# Readme Generator
 
-  ## Description
+## Description
 
-  b
+This project helps streamline making formatted readmes
 
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [License](#license)
+## Table of Contents
 
-  ## Installation
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-  c
+## Installation
 
-  ## Usage
+download repo then run npm install from root folder
 
-  d
+## Usage
 
-  ## Credits
+Run index.js and answer prompts that appear in the terminal
 
-  e
+## Credits
 
-  ## License
+No contributers
 
-  MIT License
+## License
 
-  ## Questions
+MIT License
 
-  [Link to my github](https://github.com/f)
+## Questions
 
-  For any questions I can be reached at g.
+[Link to my github](https://github.com/RodrJavi)
 
-  
+For any questions I can be reached at nb2javi@gmail.com.
