@@ -1,6 +1,8 @@
+// Required packages
 const inquirer = require("inquirer");
 const fs = require("fs");
 
+// Function to create a formatted readme
 const generateReadme = ({
   title,
   description,
@@ -47,6 +49,7 @@ const generateReadme = ({
 
   `;
 
+// Asks user questions when file is ran in order to get content for readme
 inquirer
   .prompt([
     {
@@ -96,12 +99,9 @@ inquirer
     },
   ])
   .then((answers) => {
-    console.log(answers);
-
+    // Takes answers object from prompts and inputs responses as parameters for generateReadme
     const markdownContent = generateReadme(answers);
-
-    console.log(markdownContent);
-
+    // Creates readme file with content from markdownContent
     fs.writeFile("README.md", markdownContent, (err) => {
       err ? console.log(err) : console.log("Successfully created readme!");
     });
