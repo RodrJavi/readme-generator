@@ -1,34 +1,7 @@
 # Readme Generator
 
-## Description
+This challenge is for module 9 of UMO coding bootcamp.
 
-This project helps streamline making formatted readmes
+## Objective
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-download repo then run npm install from root folder
-
-## Usage
-
-Run index.js and answer prompts that appear in the terminal
-
-## Credits
-
-No contributers
-
-## License
-
-MIT License
-
-## Questions
-
-[Link to my github](https://github.com/RodrJavi)
-
-For any questions I can be reached at nb2javi@gmail.com.
+The purpose of this challenge is to utilize the skills we learned on how to download packages, use them, and run everything in node. When the index.js file is ran the user will be prompted with a series of questions, once they are all answered, they are entered into a readme that is already formatted using a function, then created into a new README.md file.
